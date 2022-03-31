@@ -26,8 +26,10 @@ namespace Line_comaprison
                 Console.WriteLine("Length of first line is:{0} and second line is:{1}", length1,length2);
                 if (length1 == length2)
                     Console.WriteLine("Two lines are equal");
+                else if (length1 > length2)
+                    Console.WriteLine("first line is greaterthan the second line");
                 else
-                    Console.WriteLine("Two lines are not equal");
+                    Console.WriteLine("first line is lessthan the second line");
                 Console.ReadLine();
             }
         }
